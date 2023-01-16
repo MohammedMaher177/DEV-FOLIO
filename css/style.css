@@ -1,0 +1,302 @@
+/*                   SHARED     CLASSES               */
+
+:root {
+  --main-color: #0078ff;
+}
+.under-line {
+  width: 70px;
+  height: 5px;
+  background-color: var(--main-color);
+  color: var(--main-color);
+  margin: auto;
+}
+.layr {
+  opacity: 0.5;
+  background-color: var(--main-color);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0%;
+}
+p {
+  font-size: 1.25rem;
+}
+
+.btn-up{
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  z-index: 3;
+  background-color: var(--main-color);
+  color: red;
+  border-radius: 50% !important;
+}
+
+/*                    N A V B A R               */
+nav {
+  height: 3rem;
+}
+.navbar-brand {
+  color: var(--main-color);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+nav .collapse ul li a {
+  position: relative;
+  color: var(--main-color);
+}
+
+/* H O M E        S T A R T */
+
+#home {
+  background-image: url(../images/intro-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  z-index: 5;
+}
+
+#home p::after{
+  content: "|";
+  animation: typing 15s infinite ;
+}
+
+@keyframes typing {
+  /* CEO DevFolio,Web Developer,Web Designer,Frontend Developer,Graphic Designer */
+  1%{content: "|";}
+  2%{content: "C |";}
+  3%{content: "CE |";}
+  4%{content: "CEO |";}
+  5%{content: "CEO D |";}
+  6%{content: "CEO DE |";}
+  7%{content: "CEO DEV |";}
+  8%{content: "CEO DEVF |";}
+  9%{content: "CEO DEVFO |";}
+  10%{content: "CEO DEVFOL |";}
+  11%{content: "CEO DEVFOLI |";}
+  12%{content: "CEO DEVFOLIO |";}
+  13%{content: "CEO DEVFOLI |";}
+  14%{content: "CEO DEVFOL |";}
+  15%{content: "CEO DEVFO |";}
+  16%{content: "CEO DEVF |";}
+  17%{content: "CEO DEV |";}
+  18%{content: "CEO DE |";}
+  19%{content: "CEO D |";}
+  20%{content: "CEO |";}
+  21%{content: "CE |";}
+  22%{content: "C |";}
+  23%{content: " |";}
+  24%{content: "W |";}
+  25%{content: "WE |";}
+  26%{content: "WEB |";}
+  27%{content: "WEB D |";}
+  28%{content: "WEB DE |";}
+  29%{content: "WEB DEV |";}
+  30%{content: "WEB DEVE |";}
+  31%{content: "WEB DEVEL |";}
+  32%{content: "WEB DEVELO |";}
+  33%{content: "WEB DEVELOP |";}
+  34%{content: "WEB DEVELOPE |";}
+  35%{content: "WEB DEVELOPER |";}
+  36%{content: "WEB DEVELOPE |";}
+  37%{content: "WEB DEVELOP |";}
+  38%{content: "WEB DEVELO |";}
+  39%{content: "WEB DEVEL |";}
+  40%{content: "WEB DEVE |";}
+  41%{content: "WEB DEV |";}
+  42%{content: "WEB DE |";}
+  43%{content: "WEB DES |";}
+  44%{content: "WEB DESI |";}
+  45%{content: "WEB DESIG |";}
+  46%{content: "WEB DESIGN |";}
+  47%{content: "WEB DESIGNE |";}
+  48%{content: "WEB DESIGNER |";}
+  49%{content: "WEB DESIGNE |";}
+  50%{content: "WEB DESIGN |";}
+  51%{content: "WEB DESIG |";}
+  52%{content: "WEB DESI |";}
+  53%{content: "WEB DES |";}
+  54%{content: "WEB DE |";}
+  55%{content: "WEB  |";}
+  56%{content: "WE |";}
+  57%{content: "W |";}
+  58%{content: " |";}
+  59%{content: "F |";}
+  60%{content: "FRO |";}
+  61%{content: "FRONT |";}
+  62%{content: "FRONT E |";}
+  63%{content: "FRONT END |";}
+  64%{content: "FRONT END D |";}
+  65%{content: "FRONT END DEV |";}
+  66%{content: "FRONT END DEVEL |";}
+  67%{content: "FRONT END DEVELOP |";}
+  68%{content: "FRONT END DEVELOPER |";}
+  69%{content: "FRONT END DEVELOP |";}
+  70%{content: "FRONT END DEVEL |";}
+  70%{content: "FRONT END DEV |";}
+  72%{content: "FRONT END D |";}
+  73%{content: "FRONT END |";}
+  74%{content: "FRONT  |";}
+  75%{content: "FRON |";}
+  76%{content: "FR |";}
+  77%{content: "F |";}
+  78%{content: " |";}
+  /* Graphic Designer */
+  79%{content: "G |";}
+  80%{content: "GRA |";}
+  81%{content: "GRAPH |";}
+  82%{content: "GRAPHIC |";}
+  83%{content: "GRAPHIC D |";}
+  84%{content: "GRAPHIC DES |";}
+  85%{content: "GRAPHIC DESIG |";}
+  86%{content: "GRAPHIC DESIGNE |";}
+  87%{content: "GRAPHIC DESIGNER |";}
+  88%{content: "GRAPHIC DESIGNER |";}
+  89%{content: "GRAPHIC DESIGN |";}
+  91%{content: "GRAPHIC DESI |";}
+  93%{content: "GRAPHIC DE |";}
+  95%{content: "GRAPHIC  |";}
+  97%{content: "GRAPHI |";}
+  98%{content: "GRAP |";}
+  99%{content: "GR |";}
+  100%{content: " |";}
+}
+/* H O M E        E N D */
+
+/* A B O U T        S T A R T */
+
+#about h4::after {
+  content: "";
+  width: 4rem;
+  height: 5px;
+  box-sizing: border-box;
+  background-color: var(--main-color);
+  color: var(--main-color);
+  position: absolute;
+  bottom: 0;
+  translate: -180%;
+}
+/* S E R V I C E S        S T A R T */
+.services-box {
+  border-radius: 1rem;
+}
+.services-icon {
+  margin: auto;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  border: 10px solid var(--main-color);
+  transition: all 0.5s;
+}
+.services-box:hover .services-icon {
+  border-color: rgba(255, 255, 255, 0.7);
+  color: white;
+  background-color: var(--main-color);
+}
+.sec-2-services {
+  background-image: url(../images/counters-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.sec-2-services .row {
+  z-index: 2;
+}
+
+.sec-2-services .sec2-services-icon {
+  margin: auto;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 10px solid white;
+}
+
+/* W O R K         S T A R T */
+.card {
+  overflow: hidden;
+}
+.card-img {
+  overflow: hidden;
+}
+.card img {
+  transition: all 0.5s;
+}
+
+.card-scale:hover img {
+  scale: 1.2;
+}
+
+.card-icon {
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid var(--main-color);
+  border-radius: 50%;
+}
+
+.card-body a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.work {
+  background-image: url(../images/overlay-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*carousel start*/
+.carus-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: white;
+  margin: auto;
+  color: var(--main-color);
+}
+.carousel-img {
+  width: 50%;
+}
+/*carousel end*/
+
+/* B L O G         S T A R T */
+
+.card-category {
+  margin: auto;
+  bottom: 5%;
+  left: 50%;
+  border-radius: 0.5rem;
+}
+
+.card-title a {
+  color: black;
+  transition: all 0.3s;
+}
+
+.card-title:hover a {
+  color: var(--main-color);
+}
+
+.card-footer figure {
+  width: 10%;
+}
+
+.icon-circ {
+  width: 3rem;
+  height: 3rem;
+  border: solid 3px var(--main-color);
+  border-radius: 50%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* C O N T A C T         S T A R T */
